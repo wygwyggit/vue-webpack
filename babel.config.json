@@ -1,0 +1,14 @@
+{
+    "presets": [
+      [
+        // 预设 （包含很多的预先定义好的插件）
+        "@babel/preset-env",{
+            "useBuiltIns": "usage",
+            "corejs": 3
+        }
+      ]
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-dynamic-import"
+    ]
+  }
